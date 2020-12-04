@@ -28,7 +28,7 @@ Return the answer to all queries.  Your answer array should have answer[i] as th
         }
         //Loop over queries
         for (int i = 0; i < queries.length; i++) {
-            int internalSum = sum;
+            int internalSum = sum
             //If adding even number to already even, add that much to the sum 
             if (queries[i][0] % 2 == 0 && evenIndices.contains(queries[i][1])) {
                 internalSum += queries[i][0];
